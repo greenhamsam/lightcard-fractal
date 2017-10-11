@@ -1981,6 +1981,10 @@
 		}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
+		.stretch img {
+			display: none;
+		}
+	}
 
 		input[type="submit"],
 		input[type="reset"],
