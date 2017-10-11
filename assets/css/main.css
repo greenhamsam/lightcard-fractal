@@ -4208,4 +4208,5 @@
 .flex-centre {
   display: flex;
   justify-content: center;
+	max-width: 300px;
 }
