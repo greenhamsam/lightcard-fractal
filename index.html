@@ -43,7 +43,7 @@
 										<input type="email" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required="">
 									</div>
 									<div class="3u 12u$(medium)">
-										<input type="submit" value="SIGN UP" onClick="ga('send', 'event', { eventCategory: 'database', eventAction: 'signup', eventLabel: 'presale list'});" data-wait="Please wait..." class="special">
+										<input type="submit" value="SIGN UP" onClick="ga('send', 'event', { eventCategory: 'database', eventAction: 'signup', eventLabel: 'presale list'});" data-wait="Please wait..." class="button special">
 									</div>
 								</div>
 							</form>
@@ -117,41 +117,24 @@
 			</section>
 
 		<!-- Three -->
-			<section id="three" class="wrapper style2 special">
-				<header class="major">
-					<h2>Be one of the first to get a Lightcard</h2>
-					<p>Sign up with your email address below.</p>
-				</header>
-				<main class="flex-centre">
+		<section id="three" class="wrapper style2 special">
+			<header class="major">
+				<h2>Be one of the first to get a Lightcard</h2>
+				<p>Sign up with your email address below.</p>
+				<form id="email-form" name="email-form" data-name="Email Form" class="form">
 					<div>
-						I'm an element that is block-like with my siblings and we're centered in a row.
+						<input type="email" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required="">
+						<input type="submit" value="SIGN UP" onClick="ga('send', 'event', { eventCategory: 'database', eventAction: 'signup', eventLabel: 'presale list'});" data-wait="Please wait..." class="button special">
 					</div>
-					<div>
-						I'm an element that is block-like with my siblings and we're centered in a row. I have more content in me than my siblings do.
-					</div>
-					<div>
-						I'm an element that is block-like with my siblings and we're centered in a row.
-					</div>
-				</main>
-				<div class="form-block w-form" style="margin:auto;width:30%;">
-					<form id="email-form" name="email-form" data-name="Email Form" class="form">
-						<div class="row uniform">
-							<div class="9u 12u$(medium)" style="max-width:300px">
-								<input type="email" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required="">
-							</div>
-							<div class="3u 12u$(medium)">
-								<input type="submit" value="SIGN UP" onClick="ga('send', 'event', { eventCategory: 'database', eventAction: 'signup', eventLabel: 'presale list'});" data-wait="Please wait..." class="special">
-							</div>
-						</div>
-					</form>
-					<div class="success-message w-form-done">
-						<div class="text-block-2">Thank you for signing up! We&#x27;ll be in touch soon...</div>
-					</div>
-					<div class="error-message w-form-fail">
-						<div>Oops! Something went wrong while submitting the form. Please try again.</div>
-					</div>
+				</form>
+				<div class="success-message w-form-done">
+					<div class="text-block-2">Thank you for signing up! We&#x27;ll be in touch soon...</div>
 				</div>
-			</section>
+				<div class="error-message w-form-fail">
+					<div>Oops! Something went wrong while submitting the form. Please try again.</div>
+				</div>
+			</header>
+		</section>
 
 		<!-- Footer -->
 			<footer id="footer">
