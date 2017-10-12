@@ -4235,6 +4235,7 @@
 #bottom-email {
 	/*display: flex;
 	flex-direction: row;*/
+	margin: 0 auto;
 	width: 500px;
 	max-width: 100%
 }
