@@ -3942,16 +3942,16 @@
 			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 			transition: opacity 1s ease, transform 1s ease;
-			-moz-transform: translateY(0);
+			/*-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
-			transform: translateY(0);
+			transform: translateY(0);*/
 			opacity: 1;
-			position:relative;
-			padding-bottom:56.25%;
-			padding-top:30px;
-			height:0;
-			overflow:hidden;
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 30px;
+			height: 0;
+			overflow: hidden;
 		}
 
 		#header .image iframe {
