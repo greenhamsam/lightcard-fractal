@@ -3803,7 +3803,7 @@
 		#header .video-wrapper {
 			position: relative;
 			padding-bottom: 56.25%;
-			padding-top: 300px;
+			padding-top: 400px;
 			height: 0;
 			overflow: hidden;
 		}
@@ -3812,6 +3812,7 @@
 			#header .video-wrapper {
 				position: relative;
 				padding-top: 30px;
+				height: 315px;
 				padding-bottom: 30px;
 			}
 
