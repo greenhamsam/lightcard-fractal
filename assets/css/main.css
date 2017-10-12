@@ -4027,6 +4027,7 @@
 					font-size: 0.8em;
 					width: 15em;
 					max-width: 100vw;
+					margin: 0 auto;
 				}
 
 					#header .image .inner, #header .image:before, #header .image:after {
@@ -4044,6 +4045,7 @@
 				#header .image {
 					font-size: 0.6em;
 					max-width: 100vw;
+					margin: 0 auto;
 				}
 
 		}
