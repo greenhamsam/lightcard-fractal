@@ -1980,12 +1980,6 @@
 			opacity: 0.25;
 		}
 
-	@media screen and (max-width: 480px) {
-		.stretch img {
-			display: none;
-		}
-	}
-
 		input[type="submit"],
 		input[type="reset"],
 		input[type="button"],
@@ -3645,21 +3639,6 @@
 	display: inline;
 }
 
-/* Skyline */
-#skyline {
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    left: 0px;
-    bottom: -5px;
-    z-index: 0;
-}
-
-.stretch {
-    width:100%;
-		height:100%;
-}
-
 /* Header */
 
 	#header {
@@ -3795,6 +3774,32 @@
 
 		#header .icon {
 			color: #b5d5f4;
+		}
+
+		/* Skyline */
+		#header .skyline-container {
+			position: relative;
+		}
+
+		#header .skyline-wrapper {
+			position: absolute;
+			bottom: 0;
+			z-index: 99;
+		}
+
+		#header .skyline {
+		    width: 100%;
+		    height: 80px;
+		    /*position: absolute;*/
+		    /*left: 0px;*/
+		    /*bottom: -5px;*/
+		    /*z-index: 99;*/
+		}
+
+		@media screen and (max-width:480px) {
+		  #header .skyline {
+		    display: none;
+		  }
 		}
 
 		#header .image {
