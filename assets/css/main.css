@@ -4233,5 +4233,12 @@
 
 /* Bottom email form*/
 #bottom-email {
+	display: flex;
 	max-width: 500px;
+	flex-direction: row;
 }
+
+@media screen and (max-width: 736px) {
+	#bottom-email {
+		flex-direction: column;
+	}
