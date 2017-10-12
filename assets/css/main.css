@@ -3780,7 +3780,7 @@
 		#header .skyline-wrapper {
 			position: absolute;
 			z-index: 99;
-			bottom: -5px;
+			bottom: -8px;
 		}
 
 		#header .skyline {
