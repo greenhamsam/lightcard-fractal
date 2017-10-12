@@ -3802,11 +3802,18 @@
 
 		#header .video-wrapper {
 			position: relative;
-			padding-bottom: 56.25%;
-			padding-top: 1px;
+			width: 100%;
 			height: 0;
-			overflow: hidden;
+			padding-bottom: 56%;
 		}
+
+		#header .video-wrapper iframe {
+   		position: absolute;
+   		width: 100%;
+   		height: 100%;
+   		left: 0;
+   		top: 0;
+ 		}
 
 		/*@media screen and (max-width:736px) {
 			#header .video-wrapper {
