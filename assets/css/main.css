@@ -4230,3 +4230,8 @@
 	  margin-top: 10px;
 	  padding: 10px;
 	}
+
+/* Bottom email form*/
+#bottom-email {
+	max-width: 500px;
+}
