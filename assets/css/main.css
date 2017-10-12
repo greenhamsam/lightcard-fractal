@@ -3950,8 +3950,8 @@
 			position: relative;
 			/*padding-bottom: 56.25%;*/
 			/*padding-top: 30px;*/
-			max-height: 315px;
-			max-width: 516px;
+			height: 315px;
+			width: 516px;
 			overflow: hidden;
 			margin-bottom: 30px;
 		}
