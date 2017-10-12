@@ -4013,7 +4013,7 @@
 
 		}
 
-		/*@media screen and (max-width: 736px) and (orientation: landscape) {
+		@media screen and (max-width: 736px) and (orientation: landscape) {
 
 			#header {
 				padding: 2em 2em 0.1em 2em ;
@@ -4026,16 +4026,16 @@
 				#header .image {
 					font-size: 0.8em;
 					width: 15em;
-					max-width: 20vw;
+					max-width: 100vw;
 				}
 
 					#header .image .inner, #header .image:before, #header .image:after {
 						font-size: 0.8em;
 					}
 
-		}*/
+		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) and (orientation: portrait) {
 
 			#header {
 				padding: 3em 1.5em 1em 1.5em ;
