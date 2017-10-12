@@ -3820,7 +3820,7 @@
 			/*box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);*/
 		/*}*/
 
-			#header .image.phone {
+			/*#header .image.phone {
 				box-shadow: none;
 			}
 
@@ -3834,7 +3834,7 @@
 
 				#header .image.phone .inner:after {
 					border-color: rgba(255, 255, 255, 0.25);
-				}
+				}*/
 
 		#header ul.alt > li {
 			border-top-color: rgba(255, 255, 255, 0.25);
