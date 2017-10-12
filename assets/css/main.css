@@ -3777,10 +3777,6 @@
 		}
 
 		/* Skyline */
-		#header .skyline-container {
-			position: relative;
-		}
-
 		#header .skyline-wrapper {
 			position: absolute;
 			bottom: 0;
