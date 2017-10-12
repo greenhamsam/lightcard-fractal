@@ -3803,18 +3803,18 @@
 		#header .video-wrapper {
 			position: relative;
 			padding-bottom: 56.25%;
-			padding-top: 400px;
+			padding-top: 1px;
 			height: 0;
 			overflow: hidden;
 		}
 
-		@media screen and (max-width:736px) {
+		/*@media screen and (max-width:736px) {
 			#header .video-wrapper {
 				position: relative;
 				padding-top: 30px;
 				height: 315px;
 				padding-bottom: 30px;
-			}
+			}*/
 
 		#header .image {
 			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
